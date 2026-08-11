@@ -48,8 +48,8 @@ princípio: "Entender o porquê, não só o como"
 ## ▓ Estatísticas
 
 <div align="left">
-<img src="https://github-readme-stats.vercel.app/api?username=eduardoemanul44-creator&show_icons=true&theme=dark&hide_border=true&bg_color=0d0d14&title_color=a855f7&icon_color=a855f7&text_color=e9d5ff" alt="GitHub Stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduardoemanul44-creator&layout=compact&theme=dark&hide_border=true&bg_color=0d0d14&title_color=a855f7&text_color=e9d5ff" alt="Top Languages" height="165"/>
+<img src="https://github-readme-stats-fast.vercel.app/api?username=eduardoemanul44-creator&show_icons=true&theme=dark&hide_border=true&bg_color=0d0d14&title_color=a855f7&icon_color=a855f7&text_color=e9d5ff" alt="GitHub Stats" height="165"/>
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=eduardoemanul44-creator&layout=compact&theme=dark&hide_border=true&bg_color=0d0d14&title_color=a855f7&text_color=e9d5ff" alt="Top Languages" height="165"/>
 </div>
 
 <br/>
@@ -71,3 +71,4 @@ Também curto jogo de estratégia e gestão. Faz sentido: gosto de pensar vária
 <div align="center">
 <sub>feito com lógica, café e uma boa dose de teimosia</sub>
 </div>
+
