@@ -1,0 +1,61 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="55%" stop-color="#0d0d14"/>
+      <stop offset="100%" stop-color="#050507"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="crackGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="260" fill="url(#bg)"/>
+
+  <!-- textura sutil -->
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="20" x2="1000" y2="20"/>
+    <line x1="0" y1="60" x2="1000" y2="60"/>
+    <line x1="0" y1="100" x2="1000" y2="100"/>
+    <line x1="0" y1="200" x2="1000" y2="200"/>
+    <line x1="0" y1="240" x2="1000" y2="240"/>
+  </g>
+
+  <!-- rachaduras -->
+  <g fill="none" stroke="#a855f7" stroke-width="1.6" opacity="0.85" filter="url(#crackGlow)">
+    <path d="M0,40 L120,55 L160,20 L230,70 L260,45 L340,90"/>
+    <path d="M160,20 L180,90 L150,150"/>
+    <path d="M230,70 L250,130 L210,180 L240,230"/>
+    <path d="M340,90 L400,60 L470,95 L520,50"/>
+    <path d="M470,95 L490,160 L440,210"/>
+    <path d="M520,50 L610,75 L650,30 L740,65"/>
+    <path d="M610,75 L630,140 L600,200 L640,255"/>
+    <path d="M740,65 L800,100 L860,55 L940,90"/>
+    <path d="M800,100 L790,170 L830,230"/>
+    <path d="M940,90 L980,50"/>
+    <path d="M0,180 L60,200 L40,250"/>
+    <path d="M900,180 L950,220 L920,260"/>
+  </g>
+  <g fill="none" stroke="#e9d5ff" stroke-width="0.6" opacity="0.5">
+    <path d="M0,40 L120,55 L160,20 L230,70 L260,45 L340,90"/>
+    <path d="M520,50 L610,75 L650,30 L740,65"/>
+    <path d="M740,65 L800,100 L860,55 L940,90"/>
+  </g>
+
+  <line x1="120" y1="130" x2="880" y2="130" stroke="url(#glow)" stroke-width="1.5" opacity="0.7"/>
+
+  <text x="500" y="118" text-anchor="middle" font-family="'Courier New', monospace" font-weight="700"
+        font-size="46" fill="#f5f3ff" letter-spacing="2">EDUARDO EMANUEL MACHADO</text>
+
+  <text x="500" y="160" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="15" fill="#a855f7" letter-spacing="4">DEV &#183; L&#211;GICA &#183; C&#211;DIGO &#183; CIBERSEGURAN&#199;A</text>
+</svg>
