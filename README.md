@@ -25,7 +25,7 @@ Meu foco agora é backend e sistemas — cibersegurança está no radar como pr�
 nome: "Eduardo Emanuel Machado"
 formação: "Desenvolvimento de Sistemas - SENAI/SC"
 foco_atual: ["Python", "JavaScript"]
-próximo_passo: "Cibersegurança"
+próximo_passo: "BackEnd"
 princípio: "Entender o porquê, não só o como"
 ```
 
